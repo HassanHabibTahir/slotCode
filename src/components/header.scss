@@ -1,0 +1,43 @@
+.container_header {
+  width: 100%;
+  height: 5rem;
+  padding-top: 0.5rem;
+  background-color: transparent;
+
+  ._content {
+    display: flex;
+    justify-content: space-between;
+    .button {
+      background-color: white;
+      border-radius: 0.5rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #2e0545;
+      padding: 0.9rem;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        color: #7983ff;
+      }
+    }
+    .c_logo {
+      color: white;
+      font-size: 2rem;
+      padding-left: 0.5rem;
+      //   width: 3rem;
+      //   height: 3rem;
+      //   margin-right: 1rem;
+      //   background-color: #2e0545;
+      //   border-radius: 50%;
+      //   display: flex;
+      //   align-items: center;
+      //   justify-content: center;
+      //   img {
+      //     width: 100%;
+      //     height: 100%;
+      //   }
+    }
+  }
+}
